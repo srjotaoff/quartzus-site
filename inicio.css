@@ -782,14 +782,13 @@ footer {
         margin-bottom: 0;
         padding-right: 0;
         margin-right: 0;
-        position: static;
+
         width: 100vw;
         display: flex;
         justify-content: space-between;
     }
 
     #header_elementos_logo {
-
 
         padding-bottom: 0;
         margin-top: 10svh;
@@ -874,7 +873,7 @@ footer {
     #main_primeiro_esquerda_texto {
         color: var(--cinza);
         letter-spacing: 0.2svw;
-        font-size: 2svh;
+        font-size: 1.75svh;
         font-weight: 300;
         letter-spacing: 0.1svw;
         line-height: 2.5vh;
@@ -900,7 +899,7 @@ footer {
         width: 80svw;
         height: 5svh;
         border-radius: 1.5svh;
-        font-size: 3svw;
+        font-size: 1.25svh;
         font-weight: light;
         justify-content: center;
         align-items: center;
@@ -978,7 +977,7 @@ footer {
 
     #main_segundo_superior_esquerdo_oquesomos {
         left: 0;
-        font-size: 2svh;
+        font-size: 1.5svh;
         color: var(--roxo);
         padding-bottom: 3vh;
         letter-spacing: 0.125svw;
@@ -1007,9 +1006,9 @@ footer {
         padding-bottom: 5svh;
         width: 80vw;
         height: 9.5vh;
-        font-size: 2svh;
+        font-size: 1.75svh;
         line-height: 2.5vh;
-        letter-spacing: 0.1svw;
+        letter-spacing: 0.05svw;
         padding-top: 0svh;
         font-weight: 300;
     }
@@ -1725,3 +1724,8 @@ footer {
 
 
 }
+
+
+
+
+
