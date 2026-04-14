@@ -117,7 +117,7 @@ header{
     display: flex;
     flex-direction: column;
     font-weight: 900;
-    line-height: 1; 
+
     
 }
 
@@ -261,29 +261,35 @@ header{
     padding-top: 0vh;
     display: flex;
     flex-direction: column; 
-    gap: 2vh;
+    justify-content: space-between;
 }
 
 .main_segundo_superior_direita_caixa{
     width: 30vw;
-    height: 15vh;
-    border-radius: 3svw;
+    height: auto;
+    border-radius: 3svh;
     border: none;
     background-color: var(--cor_caixa);
     place-items: center;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    padding-top: 3svh;
+    padding-bottom: 3svh;
+    display: flex;
+    flex-direction: column;
+    gap: 1svh;
+    
 }
 
-.main_segundo_superior_direita_caixa_textos{
-    padding-top: 2.5vh;
-}
+
 
 .main_segundo_superior_direita_caixa_titulo{
     color: var(--branca);
     font-size: 1.25svw;
     font-weight: bold;
     letter-spacing: 0.1svw;
+
     
     
 }
@@ -295,6 +301,8 @@ header{
     letter-spacing: 0.05svw;
     font-weight: 300;
     font-size: 1svw;
+    line-height: 2.5svh;
+    
 
 }
 
@@ -448,25 +456,37 @@ header{
 
 
 
+
 #main_terceiro_inferior {
     width: 80svw;
-    padding-top: 5vh;
-    padding-left: 10svw;
+    margin-top: 5vh;
+    margin-left: 10svw;
+    margin-right: 10svw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 5svh;
+    
+
+
 }
 
 .main_terceiro_inferior{
     display: flex;
     flex-direction: column;
     gap: 1svh;
-    width: 25vw;
-    height: 20vh;
+    width: 24svw;
+
     background-color: var(--cor_caixa);
-    border-radius: 3svw;
+    border-radius: 3svh;
+    box-sizing: border-box;
+
+    padding-bottom: 5svh;
+    padding-top: 5svh;
+    padding-left: 3svw;
+    padding-right: 3svw;
+
 }
 
 .main_terceiro_inferior_tudo{
@@ -478,25 +498,22 @@ header{
 }
 
 .main_terceiro_inferior_titulo{
-    padding-left: 3vw;
     color: var(--branca);
     font-size: 1.25svw;
     font-weight: bold;  
     letter-spacing: 0.05svw;
-    padding-top: 5vh;
 }
      
 .main_terceiro_inferior_texto{
-    padding-left: 3vw;
-    padding-bottom: 5vh;
     color: var(--cinza);
     font-weight: 300;
     line-height: 2.5vh;
     letter-spacing: 0.05svw;
-    width: 18vw;
     font-size: 1svw;
 }
     
+
+
 #main_quarto{
     height: 100vh;
 }
@@ -884,7 +901,7 @@ main{
     font-size: 2svh;
     font-weight: 300;
     letter-spacing: 0.1svw;
-    line-height: 1.75vh;
+    line-height: 2.5vh;
     width: 80vw;
 }
 
@@ -996,7 +1013,7 @@ main{
     width: 80vw;
     height: 8.5vh;
     font-size: 1.75svh;
-    line-height: 1.75vh;
+    line-height: 2.5vh;
     letter-spacing: 0.1svw;
     font-weight: 300;
     padding-bottom: 5svh;
@@ -1015,20 +1032,21 @@ main{
     height: auto;
     margin-left: 10svw;
     margin-right: 10svw;
-    border-radius: 1.5svw;
+    border-radius: 1.5svh;
     border: none;
     background-color: var(--cor_caixa);
     place-items: center;
     justify-content: center;
     align-items: center;
+    
 }
 
 .main_segundo_superior_direita_caixa_textos{
-    padding-top: 2vh;
-    padding-bottom: 2svh;
+
     width: 70svw;
     display: flex;
     flex-direction: column;
+    gap: 1svh;
 }
 
 .main_segundo_superior_direita_caixa_titulo{
@@ -1036,7 +1054,7 @@ main{
     font-size: 2svh;
     font-weight: bold;
     letter-spacing: 0.1svw;
-    padding-bottom: 1svh;
+
     
 }
 
@@ -1235,8 +1253,7 @@ main{
 
 #main_terceiro_inferior {
     width: 80svw;
-    padding-top: 5vh;
-    padding-left: 10svw;
+
     display: flex;
     height: auto;
     flex-direction: column;
@@ -1264,6 +1281,11 @@ main{
     height: auto;
     background-color: var(--cor_caixa);
     border-radius: 1.5svh;
+
+    padding-bottom: 3svh;
+    padding-top: 3svh;
+    padding-left: 5svw;
+    padding-right: 5svw;
 }
 
 .main_terceiro_inferior_tudo{
@@ -1275,18 +1297,13 @@ main{
 }
 
 .main_terceiro_inferior_titulo{
-    padding-left: 5vw;
     color: var(--branca);
     font-size: 2svh;
     font-weight: bold;  
     letter-spacing: 0.05svw;
-    padding-top: 1.5vh;
 }
      
 .main_terceiro_inferior_texto{
-    padding-left: 5vw;
-    padding-right: 4vw;
-    padding-bottom: 2vh;
     color: var(--cinza);
     font-weight: 300;
     line-height: 1.75vh;
