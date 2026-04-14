@@ -267,7 +267,7 @@ header{
 .main_segundo_superior_direita_caixa{
     width: 30vw;
     height: 15vh;
-    border-radius: 1.5svw;
+    border-radius: 3svw;
     border: none;
     background-color: var(--cor_caixa);
     place-items: center;
@@ -466,7 +466,7 @@ header{
     width: 25vw;
     height: 20vh;
     background-color: var(--cor_caixa);
-    border-radius: 1svw;
+    border-radius: 3svw;
 }
 
 .main_terceiro_inferior_tudo{
