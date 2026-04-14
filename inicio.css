@@ -884,7 +884,7 @@ main{
     font-size: 2svh;
     font-weight: 300;
     letter-spacing: 0.1svw;
-    line-height: 2.5vh;
+    line-height: 1.75vh;
     width: 80vw;
 }
 
@@ -996,7 +996,7 @@ main{
     width: 80vw;
     height: 8.5vh;
     font-size: 1.75svh;
-    line-height: 2.5vh;
+    line-height: 1.75vh;
     letter-spacing: 0.1svw;
     font-weight: 300;
     padding-bottom: 5svh;
@@ -1045,6 +1045,7 @@ main{
     width: 70vw;
     height: auto;
     padding-top: 0vh;
+    line-height: 1.75vh;
     letter-spacing: 0.05svw;
     font-weight: 300;
     font-size: 1.25svh;
@@ -1139,6 +1140,7 @@ main{
 #main_segundo_inferior_caixa_elementos_simbolo_100{
     display: flex;
     flex-direction: row;
+    width: auto;
     gap: 0;
     align-items: center;
     justify-content: space-around;
@@ -1287,7 +1289,7 @@ main{
     padding-bottom: 2vh;
     color: var(--cinza);
     font-weight: 300;
-    line-height: 2.5vh;
+    line-height: 1.75vh;
     letter-spacing: 0.05svw;
     width: 70vw;
     font-size: 1.25svh;
@@ -1345,7 +1347,7 @@ main{
 }
 
 .main_quarto_inferior_caixa{
-    margin-bottom: 1svh;
+    margin-bottom: 5svh;
     width: 35vw;
     height: auto;
     display: flex;
@@ -1365,7 +1367,7 @@ main{
     padding-left:3svw;
     padding-right: 3svw;
     height: 2.5svw;
-    width: auto;
+    width: 7svw;
 }
 
 .main_quarto_inferior_caixa_numero_1234{
@@ -1386,7 +1388,7 @@ main{
     padding-bottom: 5vh;
     color: var(--cinza);
     font-weight: 300; 
-    line-height: 2.5vh;
+    line-height: 1.75vh;
     font-size: 1.5svh;
 }
 
@@ -1397,7 +1399,7 @@ main{
     
 
 
-    width: 35vw;
+    width: 100%;
 }
 
 #main_quinto{
@@ -1412,8 +1414,9 @@ main{
 }
 
 #main_quinto_caixa{
+    padding-bottom: 5svh;
     margin-top: 10vh;
-    height: 40vh;
+    height: auto;
     width: 80vw;
     background-color: var(--cor_caixa);
     border-radius: 5svh;
@@ -1435,17 +1438,17 @@ main{
     padding-top: 3vh;
     font-size: 3.75svh;
     height: 10vh;
-    width: 60vw;
+    width: 70vw;
 }
 
 #main_quinto_caixa_texto{
     padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
     color: var(--cinza);
     font-weight:300;
     padding-left: 10vw;
-    line-height: 2.5vh;
-    width: 60vw;
+    line-height: 1.75vh;
+    width: 70vw;
     font-size: 1.25svh;
 }
 
@@ -1480,7 +1483,7 @@ footer{
 #footer_caixa{
     
     height: 10vh;
-    border-top: solid 0.05svw var(--roxo);
+    border-top: none;
     display: flex;
     justify-content: space-between;
     gap: 5svw;
