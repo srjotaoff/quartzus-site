@@ -1284,7 +1284,7 @@ main{
 }
      
 .main_terceiro_inferior_texto{
-    padding-left: 4vw;
+    padding-left: 5vw;
     padding-right: 4vw;
     padding-bottom: 2vh;
     color: var(--cinza);
@@ -1465,7 +1465,7 @@ main{
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 0.5vw;
+    gap: 2vw;
     padding-left: 2svw;
     padding-right: 2svw;
     margin-left: 5svh;
